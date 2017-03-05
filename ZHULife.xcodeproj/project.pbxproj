@@ -1,0 +1,1094 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		362826BB942A37182E0EFA7F /* libPods-ZHULifeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8729A5B56AA910CDE8964C3 /* libPods-ZHULifeUITests.a */; };
+		4F34866ABFA8109E5EDC7E4B /* libPods-ZHULifeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9386D2F4F573942BA6F4AB /* libPods-ZHULifeTests.a */; };
+		590127B71E0E6D7B0069F7F0 /* HomeFoodCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 590127B61E0E6D7B0069F7F0 /* HomeFoodCollectionViewCell.m */; };
+		59124B9B1E08FF0000341F26 /* LLCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 59124B9A1E08FF0000341F26 /* LLCollectionViewCell.m */; };
+		59124B9E1E0910AC00341F26 /* LLCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59124B9D1E0910AC00341F26 /* LLCollectionReusableView.m */; };
+		59124BA21E09251600341F26 /* FoodViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59124BA11E09251600341F26 /* FoodViewViewController.m */; };
+		59124BA61E09299100341F26 /* FoodListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 59124BA51E09299100341F26 /* FoodListTableViewCell.m */; };
+		59124BAA1E094E3C00341F26 /* MakeFoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59124BA91E094E3C00341F26 /* MakeFoodViewController.m */; };
+		593745681DFFA51800262CAA /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 593745671DFFA51800262CAA /* HomePageViewController.m */; };
+		597D904E1E12D4E100060F49 /* MyCollectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 597D904D1E12D4E100060F49 /* MyCollectViewController.m */; };
+		597D90521E12DFFF00060F49 /* SetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 597D90511E12DFFF00060F49 /* SetViewController.m */; };
+		597D90591E12F0D900060F49 /* CollectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 597D90581E12F0D900060F49 /* CollectModel.m */; };
+		597D905D1E12FB4700060F49 /* MyCollectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 597D905C1E12FB4700060F49 /* MyCollectCell.m */; };
+		59AD924E1E001DA500D09769 /* LLRandomList.m in Sources */ = {isa = PBXBuildFile; fileRef = 59AD92451E001DA500D09769 /* LLRandomList.m */; };
+		59AD924F1E001DA500D09769 /* LLRandomMaterial.m in Sources */ = {isa = PBXBuildFile; fileRef = 59AD92471E001DA500D09769 /* LLRandomMaterial.m */; };
+		59AD92501E001DA500D09769 /* LLRandomProces.m in Sources */ = {isa = PBXBuildFile; fileRef = 59AD92491E001DA500D09769 /* LLRandomProces.m */; };
+		59AD92511E001DA500D09769 /* LLRandomResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 59AD924B1E001DA500D09769 /* LLRandomResult.m */; };
+		59AD92521E001DA500D09769 /* LLRandomRootClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 59AD924D1E001DA500D09769 /* LLRandomRootClass.m */; };
+		59BDD00B1DFA4878008EDE5F /* GetIp.m in Sources */ = {isa = PBXBuildFile; fileRef = 59BDD00A1DFA4878008EDE5F /* GetIp.m */; };
+		59D2D4831E07CDC700A2E3DB /* LLClassItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D2D47E1E07CDC600A2E3DB /* LLClassItemModel.m */; };
+		59D2D4841E07CDC700A2E3DB /* LLClassList.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D2D4801E07CDC700A2E3DB /* LLClassList.m */; };
+		59D2D4851E07CDC700A2E3DB /* LLClassResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D2D4821E07CDC700A2E3DB /* LLClassResult.m */; };
+		59D2D48A1E08179100A2E3DB /* DetailedClassificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D2D4891E08179100A2E3DB /* DetailedClassificationViewController.m */; };
+		59E296961E11904A006AD643 /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E296951E11904A006AD643 /* IntroViewController.m */; };
+		59E296991E119058006AD643 /* MaterialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E296981E119058006AD643 /* MaterialViewController.m */; };
+		59E2969C1E119065006AD643 /* ProcessViewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E2969B1E119065006AD643 /* ProcessViewcontroller.m */; };
+		59E296A01E11AC5B006AD643 /* MaterialTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E2969F1E11AC5B006AD643 /* MaterialTableViewCell.m */; };
+		59E296A41E11B01B006AD643 /* ProcessTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E296A31E11B01B006AD643 /* ProcessTableViewCell.m */; };
+		59F1C4941DF98C8200ADA2A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F1C4931DF98C8200ADA2A5 /* main.m */; };
+		59F1C49F1DF98C8200ADA2A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59F1C49E1DF98C8200ADA2A5 /* Assets.xcassets */; };
+		59F1C4A21DF98C8200ADA2A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59F1C4A01DF98C8200ADA2A5 /* LaunchScreen.storyboard */; };
+		59F1C4AD1DF98C8200ADA2A5 /* ZHULifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F1C4AC1DF98C8200ADA2A5 /* ZHULifeTests.m */; };
+		59F1C4B81DF98C8200ADA2A5 /* ZHULifeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F1C4B71DF98C8200ADA2A5 /* ZHULifeUITests.m */; };
+		59F1C4C81DF98CA600ADA2A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F1C4C71DF98CA600ADA2A5 /* AppDelegate.m */; };
+		59F1C4CC1DF98DA900ADA2A5 /* RequestBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F1C4CB1DF98DA900ADA2A5 /* RequestBase.m */; };
+		59F5E5C51DFFD034005A24EB /* ClassifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F5E5C41DFFD034005A24EB /* ClassifyViewController.m */; };
+		59F5E5C91DFFDA1D005A24EB /* LLPlusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F5E5C81DFFDA1D005A24EB /* LLPlusButton.m */; };
+		59F5E5CD1DFFF4AB005A24EB /* LLStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59F5E5CC1DFFF4AB005A24EB /* LLStoryboard.storyboard */; };
+		CDEF922B44F79D8D22ADDE0E /* libPods-ZHULife.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D5683A928E64217C828FA3 /* libPods-ZHULife.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59F1C4A91DF98C8200ADA2A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59F1C4871DF98C8200ADA2A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59F1C48E1DF98C8200ADA2A5;
+			remoteInfo = ZHULife;
+		};
+		59F1C4B41DF98C8200ADA2A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59F1C4871DF98C8200ADA2A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59F1C48E1DF98C8200ADA2A5;
+			remoteInfo = ZHULife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04D5683A928E64217C828FA3 /* libPods-ZHULife.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZHULife.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14D7C942E426AFCF2B1875B7 /* Pods-ZHULife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHULife.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZHULife/Pods-ZHULife.release.xcconfig"; sourceTree = "<group>"; };
+		17E92A5F55419A5CAD3362D3 /* Pods-ZHULifeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHULifeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZHULifeTests/Pods-ZHULifeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		421A44C030D27617AB7B11B4 /* Pods-ZHULifeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHULifeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZHULifeUITests/Pods-ZHULifeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		590127B51E0E6D7B0069F7F0 /* HomeFoodCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeFoodCollectionViewCell.h; sourceTree = "<group>"; };
+		590127B61E0E6D7B0069F7F0 /* HomeFoodCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeFoodCollectionViewCell.m; sourceTree = "<group>"; };
+		59124B991E08FF0000341F26 /* LLCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLCollectionViewCell.h; sourceTree = "<group>"; };
+		59124B9A1E08FF0000341F26 /* LLCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLCollectionViewCell.m; sourceTree = "<group>"; };
+		59124B9C1E0910AC00341F26 /* LLCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLCollectionReusableView.h; sourceTree = "<group>"; };
+		59124B9D1E0910AC00341F26 /* LLCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLCollectionReusableView.m; sourceTree = "<group>"; };
+		59124BA01E09251600341F26 /* FoodViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodViewViewController.h; sourceTree = "<group>"; };
+		59124BA11E09251600341F26 /* FoodViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodViewViewController.m; sourceTree = "<group>"; };
+		59124BA41E09299100341F26 /* FoodListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodListTableViewCell.h; sourceTree = "<group>"; };
+		59124BA51E09299100341F26 /* FoodListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodListTableViewCell.m; sourceTree = "<group>"; };
+		59124BA81E094E3C00341F26 /* MakeFoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakeFoodViewController.h; sourceTree = "<group>"; };
+		59124BA91E094E3C00341F26 /* MakeFoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakeFoodViewController.m; sourceTree = "<group>"; };
+		593745661DFFA51800262CAA /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		593745671DFFA51800262CAA /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		597D904C1E12D4E100060F49 /* MyCollectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectViewController.h; sourceTree = "<group>"; };
+		597D904D1E12D4E100060F49 /* MyCollectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectViewController.m; sourceTree = "<group>"; };
+		597D90501E12DFFF00060F49 /* SetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetViewController.h; sourceTree = "<group>"; };
+		597D90511E12DFFF00060F49 /* SetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetViewController.m; sourceTree = "<group>"; };
+		597D90571E12F0D900060F49 /* CollectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectModel.h; sourceTree = "<group>"; };
+		597D90581E12F0D900060F49 /* CollectModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectModel.m; sourceTree = "<group>"; };
+		597D905B1E12FB4700060F49 /* MyCollectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectCell.h; sourceTree = "<group>"; };
+		597D905C1E12FB4700060F49 /* MyCollectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectCell.m; sourceTree = "<group>"; };
+		59AD92441E001DA500D09769 /* LLRandomList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLRandomList.h; sourceTree = "<group>"; };
+		59AD92451E001DA500D09769 /* LLRandomList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLRandomList.m; sourceTree = "<group>"; };
+		59AD92461E001DA500D09769 /* LLRandomMaterial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLRandomMaterial.h; sourceTree = "<group>"; };
+		59AD92471E001DA500D09769 /* LLRandomMaterial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLRandomMaterial.m; sourceTree = "<group>"; };
+		59AD92481E001DA500D09769 /* LLRandomProces.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLRandomProces.h; sourceTree = "<group>"; };
+		59AD92491E001DA500D09769 /* LLRandomProces.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLRandomProces.m; sourceTree = "<group>"; };
+		59AD924A1E001DA500D09769 /* LLRandomResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLRandomResult.h; sourceTree = "<group>"; };
+		59AD924B1E001DA500D09769 /* LLRandomResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLRandomResult.m; sourceTree = "<group>"; };
+		59AD924C1E001DA500D09769 /* LLRandomRootClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLRandomRootClass.h; sourceTree = "<group>"; };
+		59AD924D1E001DA500D09769 /* LLRandomRootClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLRandomRootClass.m; sourceTree = "<group>"; };
+		59BDD0091DFA4878008EDE5F /* GetIp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetIp.h; sourceTree = "<group>"; };
+		59BDD00A1DFA4878008EDE5F /* GetIp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetIp.m; sourceTree = "<group>"; };
+		59D2D47D1E07CDC600A2E3DB /* LLClassItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLClassItemModel.h; sourceTree = "<group>"; };
+		59D2D47E1E07CDC600A2E3DB /* LLClassItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLClassItemModel.m; sourceTree = "<group>"; };
+		59D2D47F1E07CDC700A2E3DB /* LLClassList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLClassList.h; sourceTree = "<group>"; };
+		59D2D4801E07CDC700A2E3DB /* LLClassList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLClassList.m; sourceTree = "<group>"; };
+		59D2D4811E07CDC700A2E3DB /* LLClassResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLClassResult.h; sourceTree = "<group>"; };
+		59D2D4821E07CDC700A2E3DB /* LLClassResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLClassResult.m; sourceTree = "<group>"; };
+		59D2D4881E08179100A2E3DB /* DetailedClassificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedClassificationViewController.h; sourceTree = "<group>"; };
+		59D2D4891E08179100A2E3DB /* DetailedClassificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedClassificationViewController.m; sourceTree = "<group>"; };
+		59E296941E11904A006AD643 /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
+		59E296951E11904A006AD643 /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
+		59E296971E119058006AD643 /* MaterialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaterialViewController.h; sourceTree = "<group>"; };
+		59E296981E119058006AD643 /* MaterialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaterialViewController.m; sourceTree = "<group>"; };
+		59E2969A1E119065006AD643 /* ProcessViewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcessViewcontroller.h; sourceTree = "<group>"; };
+		59E2969B1E119065006AD643 /* ProcessViewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProcessViewcontroller.m; sourceTree = "<group>"; };
+		59E2969E1E11AC5B006AD643 /* MaterialTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaterialTableViewCell.h; sourceTree = "<group>"; };
+		59E2969F1E11AC5B006AD643 /* MaterialTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaterialTableViewCell.m; sourceTree = "<group>"; };
+		59E296A21E11B01B006AD643 /* ProcessTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcessTableViewCell.h; sourceTree = "<group>"; };
+		59E296A31E11B01B006AD643 /* ProcessTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProcessTableViewCell.m; sourceTree = "<group>"; };
+		59F1C48F1DF98C8200ADA2A5 /* ZHULife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHULife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59F1C4931DF98C8200ADA2A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		59F1C49E1DF98C8200ADA2A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59F1C4A11DF98C8200ADA2A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59F1C4A31DF98C8200ADA2A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59F1C4A81DF98C8200ADA2A5 /* ZHULifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHULifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59F1C4AC1DF98C8200ADA2A5 /* ZHULifeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHULifeTests.m; sourceTree = "<group>"; };
+		59F1C4AE1DF98C8200ADA2A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59F1C4B31DF98C8200ADA2A5 /* ZHULifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHULifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59F1C4B71DF98C8200ADA2A5 /* ZHULifeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHULifeUITests.m; sourceTree = "<group>"; };
+		59F1C4B91DF98C8200ADA2A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59F1C4C61DF98CA600ADA2A5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		59F1C4C71DF98CA600ADA2A5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		59F1C4CA1DF98DA900ADA2A5 /* RequestBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestBase.h; sourceTree = "<group>"; };
+		59F1C4CB1DF98DA900ADA2A5 /* RequestBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestBase.m; sourceTree = "<group>"; };
+		59F5E5C31DFFD034005A24EB /* ClassifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassifyViewController.h; sourceTree = "<group>"; };
+		59F5E5C41DFFD034005A24EB /* ClassifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassifyViewController.m; sourceTree = "<group>"; };
+		59F5E5C71DFFDA1D005A24EB /* LLPlusButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLPlusButton.h; sourceTree = "<group>"; };
+		59F5E5C81DFFDA1D005A24EB /* LLPlusButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLPlusButton.m; sourceTree = "<group>"; };
+		59F5E5CB1DFFF26E005A24EB /* LLPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLPrefixHeader.pch; sourceTree = "<group>"; };
+		59F5E5CC1DFFF4AB005A24EB /* LLStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LLStoryboard.storyboard; sourceTree = "<group>"; };
+		8E6D90D9BF7C1C8553CE31BF /* Pods-ZHULifeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHULifeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZHULifeUITests/Pods-ZHULifeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A9386D2F4F573942BA6F4AB /* libPods-ZHULifeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZHULifeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E3B50AB50D92250464CACC3 /* Pods-ZHULifeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHULifeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZHULifeTests/Pods-ZHULifeTests.release.xcconfig"; sourceTree = "<group>"; };
+		D8729A5B56AA910CDE8964C3 /* libPods-ZHULifeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZHULifeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F629EBAB35160215F19FB44A /* Pods-ZHULife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHULife.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZHULife/Pods-ZHULife.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59F1C48C1DF98C8200ADA2A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDEF922B44F79D8D22ADDE0E /* libPods-ZHULife.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F1C4A51DF98C8200ADA2A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F34866ABFA8109E5EDC7E4B /* libPods-ZHULifeTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F1C4B01DF98C8200ADA2A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				362826BB942A37182E0EFA7F /* libPods-ZHULifeUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59124B981E08FEE500341F26 /* LLConnetionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				59124B991E08FF0000341F26 /* LLCollectionViewCell.h */,
+				59124B9A1E08FF0000341F26 /* LLCollectionViewCell.m */,
+				59124B9C1E0910AC00341F26 /* LLCollectionReusableView.h */,
+				59124B9D1E0910AC00341F26 /* LLCollectionReusableView.m */,
+			);
+			path = LLConnetionViewCell;
+			sourceTree = "<group>";
+		};
+		59124B9F1E09250100341F26 /* FoodListVewController */ = {
+			isa = PBXGroup;
+			children = (
+				59124BA31E09297600341F26 /* FoodListCell */,
+				59124BA01E09251600341F26 /* FoodViewViewController.h */,
+				59124BA11E09251600341F26 /* FoodViewViewController.m */,
+			);
+			path = FoodListVewController;
+			sourceTree = "<group>";
+		};
+		59124BA31E09297600341F26 /* FoodListCell */ = {
+			isa = PBXGroup;
+			children = (
+				59124BA41E09299100341F26 /* FoodListTableViewCell.h */,
+				59124BA51E09299100341F26 /* FoodListTableViewCell.m */,
+			);
+			path = FoodListCell;
+			sourceTree = "<group>";
+		};
+		59124BA71E094E2400341F26 /* MakeFoodViewController */ = {
+			isa = PBXGroup;
+			children = (
+				59E296911E119014006AD643 /* IntroViewcontroller */,
+				59E296921E119019006AD643 /* MaterialViewController */,
+				59E296931E11901D006AD643 /* ProcessViewcontroller */,
+				59124BA81E094E3C00341F26 /* MakeFoodViewController.h */,
+				59124BA91E094E3C00341F26 /* MakeFoodViewController.m */,
+			);
+			path = MakeFoodViewController;
+			sourceTree = "<group>";
+		};
+		593745601DFF9F6600262CAA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				597D904F1E12DFE700060F49 /* SetViewController */,
+				597D904B1E12D4B800060F49 /* MyCollectViewController */,
+				59F5E5CC1DFFF4AB005A24EB /* LLStoryboard.storyboard */,
+				59124BA71E094E2400341F26 /* MakeFoodViewController */,
+				59124B9F1E09250100341F26 /* FoodListVewController */,
+				59C0079A1E02965B0023507B /* share */,
+				593745621DFFA01000262CAA /* Homepage */,
+				593745611DFF9F6600262CAA /* Classify */,
+			);
+			name = ViewControllers;
+			path = Request/ViewControllers;
+			sourceTree = "<group>";
+		};
+		593745611DFF9F6600262CAA /* Classify */ = {
+			isa = PBXGroup;
+			children = (
+				59D2D4871E08177500A2E3DB /* DetailedClassification */,
+				59F5E5C31DFFD034005A24EB /* ClassifyViewController.h */,
+				59F5E5C41DFFD034005A24EB /* ClassifyViewController.m */,
+			);
+			path = Classify;
+			sourceTree = "<group>";
+		};
+		593745621DFFA01000262CAA /* Homepage */ = {
+			isa = PBXGroup;
+			children = (
+				59AD923E1E00186900D09769 /* ShowRecommendCell */,
+				593745661DFFA51800262CAA /* HomePageViewController.h */,
+				593745671DFFA51800262CAA /* HomePageViewController.m */,
+			);
+			path = Homepage;
+			sourceTree = "<group>";
+		};
+		597D904B1E12D4B800060F49 /* MyCollectViewController */ = {
+			isa = PBXGroup;
+			children = (
+				597D905A1E12FB2E00060F49 /* MyCollectCell */,
+				597D904C1E12D4E100060F49 /* MyCollectViewController.h */,
+				597D904D1E12D4E100060F49 /* MyCollectViewController.m */,
+			);
+			path = MyCollectViewController;
+			sourceTree = "<group>";
+		};
+		597D904F1E12DFE700060F49 /* SetViewController */ = {
+			isa = PBXGroup;
+			children = (
+				597D90501E12DFFF00060F49 /* SetViewController.h */,
+				597D90511E12DFFF00060F49 /* SetViewController.m */,
+			);
+			path = SetViewController;
+			sourceTree = "<group>";
+		};
+		597D90531E12EF5600060F49 /* CollectModel */ = {
+			isa = PBXGroup;
+			children = (
+				597D90571E12F0D900060F49 /* CollectModel.h */,
+				597D90581E12F0D900060F49 /* CollectModel.m */,
+			);
+			path = CollectModel;
+			sourceTree = "<group>";
+		};
+		597D905A1E12FB2E00060F49 /* MyCollectCell */ = {
+			isa = PBXGroup;
+			children = (
+				597D905B1E12FB4700060F49 /* MyCollectCell.h */,
+				597D905C1E12FB4700060F49 /* MyCollectCell.m */,
+			);
+			path = MyCollectCell;
+			sourceTree = "<group>";
+		};
+		59AD923E1E00186900D09769 /* ShowRecommendCell */ = {
+			isa = PBXGroup;
+			children = (
+				590127B51E0E6D7B0069F7F0 /* HomeFoodCollectionViewCell.h */,
+				590127B61E0E6D7B0069F7F0 /* HomeFoodCollectionViewCell.m */,
+			);
+			path = ShowRecommendCell;
+			sourceTree = "<group>";
+		};
+		59AD92421E001D6B00D09769 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				597D90531E12EF5600060F49 /* CollectModel */,
+				59D2D47C1E07CDB700A2E3DB /* ClassModel */,
+				59AD92431E001D9D00D09769 /* RandomModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		59AD92431E001D9D00D09769 /* RandomModel */ = {
+			isa = PBXGroup;
+			children = (
+				59AD924C1E001DA500D09769 /* LLRandomRootClass.h */,
+				59AD924D1E001DA500D09769 /* LLRandomRootClass.m */,
+				59AD924A1E001DA500D09769 /* LLRandomResult.h */,
+				59AD924B1E001DA500D09769 /* LLRandomResult.m */,
+				59AD92441E001DA500D09769 /* LLRandomList.h */,
+				59AD92451E001DA500D09769 /* LLRandomList.m */,
+				59AD92461E001DA500D09769 /* LLRandomMaterial.h */,
+				59AD92471E001DA500D09769 /* LLRandomMaterial.m */,
+				59AD92481E001DA500D09769 /* LLRandomProces.h */,
+				59AD92491E001DA500D09769 /* LLRandomProces.m */,
+			);
+			path = RandomModel;
+			sourceTree = "<group>";
+		};
+		59BDD0081DFA485B008EDE5F /* GetIPAddress */ = {
+			isa = PBXGroup;
+			children = (
+				59BDD0091DFA4878008EDE5F /* GetIp.h */,
+				59BDD00A1DFA4878008EDE5F /* GetIp.m */,
+			);
+			path = GetIPAddress;
+			sourceTree = "<group>";
+		};
+		59C0079A1E02965B0023507B /* share */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = share;
+			sourceTree = "<group>";
+		};
+		59D2D47C1E07CDB700A2E3DB /* ClassModel */ = {
+			isa = PBXGroup;
+			children = (
+				59D2D47D1E07CDC600A2E3DB /* LLClassItemModel.h */,
+				59D2D47E1E07CDC600A2E3DB /* LLClassItemModel.m */,
+				59D2D4811E07CDC700A2E3DB /* LLClassResult.h */,
+				59D2D4821E07CDC700A2E3DB /* LLClassResult.m */,
+				59D2D47F1E07CDC700A2E3DB /* LLClassList.h */,
+				59D2D4801E07CDC700A2E3DB /* LLClassList.m */,
+			);
+			path = ClassModel;
+			sourceTree = "<group>";
+		};
+		59D2D4871E08177500A2E3DB /* DetailedClassification */ = {
+			isa = PBXGroup;
+			children = (
+				59124B981E08FEE500341F26 /* LLConnetionViewCell */,
+				59D2D4881E08179100A2E3DB /* DetailedClassificationViewController.h */,
+				59D2D4891E08179100A2E3DB /* DetailedClassificationViewController.m */,
+			);
+			path = DetailedClassification;
+			sourceTree = "<group>";
+		};
+		59E296911E119014006AD643 /* IntroViewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				59E296941E11904A006AD643 /* IntroViewController.h */,
+				59E296951E11904A006AD643 /* IntroViewController.m */,
+			);
+			path = IntroViewcontroller;
+			sourceTree = "<group>";
+		};
+		59E296921E119019006AD643 /* MaterialViewController */ = {
+			isa = PBXGroup;
+			children = (
+				59E2969D1E11AC39006AD643 /* MaterialCell */,
+				59E296971E119058006AD643 /* MaterialViewController.h */,
+				59E296981E119058006AD643 /* MaterialViewController.m */,
+			);
+			path = MaterialViewController;
+			sourceTree = "<group>";
+		};
+		59E296931E11901D006AD643 /* ProcessViewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				59E296A11E11B007006AD643 /* ProcessCell */,
+				59E2969A1E119065006AD643 /* ProcessViewcontroller.h */,
+				59E2969B1E119065006AD643 /* ProcessViewcontroller.m */,
+			);
+			path = ProcessViewcontroller;
+			sourceTree = "<group>";
+		};
+		59E2969D1E11AC39006AD643 /* MaterialCell */ = {
+			isa = PBXGroup;
+			children = (
+				59E2969E1E11AC5B006AD643 /* MaterialTableViewCell.h */,
+				59E2969F1E11AC5B006AD643 /* MaterialTableViewCell.m */,
+			);
+			path = MaterialCell;
+			sourceTree = "<group>";
+		};
+		59E296A11E11B007006AD643 /* ProcessCell */ = {
+			isa = PBXGroup;
+			children = (
+				59E296A21E11B01B006AD643 /* ProcessTableViewCell.h */,
+				59E296A31E11B01B006AD643 /* ProcessTableViewCell.m */,
+			);
+			path = ProcessCell;
+			sourceTree = "<group>";
+		};
+		59F1C4861DF98C8200ADA2A5 = {
+			isa = PBXGroup;
+			children = (
+				59F1C4911DF98C8200ADA2A5 /* ZHULife */,
+				59F1C4AB1DF98C8200ADA2A5 /* ZHULifeTests */,
+				59F1C4B61DF98C8200ADA2A5 /* ZHULifeUITests */,
+				59F1C4901DF98C8200ADA2A5 /* Products */,
+				72B997B6FB9CBE444DCE01F4 /* Pods */,
+				6689ED1C87E988A019CBAD15 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		59F1C4901DF98C8200ADA2A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59F1C48F1DF98C8200ADA2A5 /* ZHULife.app */,
+				59F1C4A81DF98C8200ADA2A5 /* ZHULifeTests.xctest */,
+				59F1C4B31DF98C8200ADA2A5 /* ZHULifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59F1C4911DF98C8200ADA2A5 /* ZHULife */ = {
+			isa = PBXGroup;
+			children = (
+				59BDD0081DFA485B008EDE5F /* GetIPAddress */,
+				59F1C4C51DF98CA600ADA2A5 /* AppDelegate */,
+				59F5E5C61DFFD9C9005A24EB /* TabBar */,
+				59F1C4C91DF98DA900ADA2A5 /* Request */,
+				59AD92421E001D6B00D09769 /* Model */,
+				593745601DFF9F6600262CAA /* ViewControllers */,
+				59F1C4921DF98C8200ADA2A5 /* Supporting Files */,
+			);
+			path = ZHULife;
+			sourceTree = "<group>";
+		};
+		59F1C4921DF98C8200ADA2A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				59F1C4A31DF98C8200ADA2A5 /* Info.plist */,
+				59F1C4A01DF98C8200ADA2A5 /* LaunchScreen.storyboard */,
+				59F1C49E1DF98C8200ADA2A5 /* Assets.xcassets */,
+				59F1C4931DF98C8200ADA2A5 /* main.m */,
+				59F5E5CB1DFFF26E005A24EB /* LLPrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59F1C4AB1DF98C8200ADA2A5 /* ZHULifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				59F1C4AC1DF98C8200ADA2A5 /* ZHULifeTests.m */,
+				59F1C4AE1DF98C8200ADA2A5 /* Info.plist */,
+			);
+			path = ZHULifeTests;
+			sourceTree = "<group>";
+		};
+		59F1C4B61DF98C8200ADA2A5 /* ZHULifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59F1C4B71DF98C8200ADA2A5 /* ZHULifeUITests.m */,
+				59F1C4B91DF98C8200ADA2A5 /* Info.plist */,
+			);
+			path = ZHULifeUITests;
+			sourceTree = "<group>";
+		};
+		59F1C4C51DF98CA600ADA2A5 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				59F1C4C61DF98CA600ADA2A5 /* AppDelegate.h */,
+				59F1C4C71DF98CA600ADA2A5 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		59F1C4C91DF98DA900ADA2A5 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				59F1C4CA1DF98DA900ADA2A5 /* RequestBase.h */,
+				59F1C4CB1DF98DA900ADA2A5 /* RequestBase.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		59F5E5C61DFFD9C9005A24EB /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				59F5E5C71DFFDA1D005A24EB /* LLPlusButton.h */,
+				59F5E5C81DFFDA1D005A24EB /* LLPlusButton.m */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		6689ED1C87E988A019CBAD15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04D5683A928E64217C828FA3 /* libPods-ZHULife.a */,
+				9A9386D2F4F573942BA6F4AB /* libPods-ZHULifeTests.a */,
+				D8729A5B56AA910CDE8964C3 /* libPods-ZHULifeUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72B997B6FB9CBE444DCE01F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F629EBAB35160215F19FB44A /* Pods-ZHULife.debug.xcconfig */,
+				14D7C942E426AFCF2B1875B7 /* Pods-ZHULife.release.xcconfig */,
+				17E92A5F55419A5CAD3362D3 /* Pods-ZHULifeTests.debug.xcconfig */,
+				9E3B50AB50D92250464CACC3 /* Pods-ZHULifeTests.release.xcconfig */,
+				8E6D90D9BF7C1C8553CE31BF /* Pods-ZHULifeUITests.debug.xcconfig */,
+				421A44C030D27617AB7B11B4 /* Pods-ZHULifeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59F1C48E1DF98C8200ADA2A5 /* ZHULife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59F1C4BC1DF98C8200ADA2A5 /* Build configuration list for PBXNativeTarget "ZHULife" */;
+			buildPhases = (
+				5FCFFFABF2E1610D087E9BD0 /* 📦 Check Pods Manifest.lock */,
+				59F1C48B1DF98C8200ADA2A5 /* Sources */,
+				59F1C48C1DF98C8200ADA2A5 /* Frameworks */,
+				59F1C48D1DF98C8200ADA2A5 /* Resources */,
+				D70451291AA48E43FC65DCFD /* 📦 Embed Pods Frameworks */,
+				750E559D3ABE61DED26E4B90 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHULife;
+			productName = ZHULife;
+			productReference = 59F1C48F1DF98C8200ADA2A5 /* ZHULife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59F1C4A71DF98C8200ADA2A5 /* ZHULifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59F1C4BF1DF98C8200ADA2A5 /* Build configuration list for PBXNativeTarget "ZHULifeTests" */;
+			buildPhases = (
+				0E591EE453A763D3A8ABE3A0 /* 📦 Check Pods Manifest.lock */,
+				59F1C4A41DF98C8200ADA2A5 /* Sources */,
+				59F1C4A51DF98C8200ADA2A5 /* Frameworks */,
+				59F1C4A61DF98C8200ADA2A5 /* Resources */,
+				AC43EF8F08DB3E411226B97F /* 📦 Embed Pods Frameworks */,
+				05FB65DD946038F9F6DDD35A /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59F1C4AA1DF98C8200ADA2A5 /* PBXTargetDependency */,
+			);
+			name = ZHULifeTests;
+			productName = ZHULifeTests;
+			productReference = 59F1C4A81DF98C8200ADA2A5 /* ZHULifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59F1C4B21DF98C8200ADA2A5 /* ZHULifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59F1C4C21DF98C8200ADA2A5 /* Build configuration list for PBXNativeTarget "ZHULifeUITests" */;
+			buildPhases = (
+				FD764EDEEE214B8F2A8D2936 /* 📦 Check Pods Manifest.lock */,
+				59F1C4AF1DF98C8200ADA2A5 /* Sources */,
+				59F1C4B01DF98C8200ADA2A5 /* Frameworks */,
+				59F1C4B11DF98C8200ADA2A5 /* Resources */,
+				7785D5BF0EBD0677460842FF /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59F1C4B51DF98C8200ADA2A5 /* PBXTargetDependency */,
+			);
+			name = ZHULifeUITests;
+			productName = ZHULifeUITests;
+			productReference = 59F1C4B31DF98C8200ADA2A5 /* ZHULifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59F1C4871DF98C8200ADA2A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = leileigege;
+				TargetAttributes = {
+					59F1C48E1DF98C8200ADA2A5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4QNJD665Z2;
+						ProvisioningStyle = Automatic;
+					};
+					59F1C4A71DF98C8200ADA2A5 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 59F1C48E1DF98C8200ADA2A5;
+					};
+					59F1C4B21DF98C8200ADA2A5 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 59F1C48E1DF98C8200ADA2A5;
+					};
+				};
+			};
+			buildConfigurationList = 59F1C48A1DF98C8200ADA2A5 /* Build configuration list for PBXProject "ZHULife" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59F1C4861DF98C8200ADA2A5;
+			productRefGroup = 59F1C4901DF98C8200ADA2A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59F1C48E1DF98C8200ADA2A5 /* ZHULife */,
+				59F1C4A71DF98C8200ADA2A5 /* ZHULifeTests */,
+				59F1C4B21DF98C8200ADA2A5 /* ZHULifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59F1C48D1DF98C8200ADA2A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F1C4A21DF98C8200ADA2A5 /* LaunchScreen.storyboard in Resources */,
+				59F5E5CD1DFFF4AB005A24EB /* LLStoryboard.storyboard in Resources */,
+				59F1C49F1DF98C8200ADA2A5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F1C4A61DF98C8200ADA2A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F1C4B11DF98C8200ADA2A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05FB65DD946038F9F6DDD35A /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZHULifeTests/Pods-ZHULifeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0E591EE453A763D3A8ABE3A0 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5FCFFFABF2E1610D087E9BD0 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		750E559D3ABE61DED26E4B90 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZHULife/Pods-ZHULife-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7785D5BF0EBD0677460842FF /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZHULifeUITests/Pods-ZHULifeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC43EF8F08DB3E411226B97F /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZHULifeTests/Pods-ZHULifeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D70451291AA48E43FC65DCFD /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZHULife/Pods-ZHULife-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD764EDEEE214B8F2A8D2936 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59F1C48B1DF98C8200ADA2A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59124B9B1E08FF0000341F26 /* LLCollectionViewCell.m in Sources */,
+				59E296991E119058006AD643 /* MaterialViewController.m in Sources */,
+				590127B71E0E6D7B0069F7F0 /* HomeFoodCollectionViewCell.m in Sources */,
+				597D90521E12DFFF00060F49 /* SetViewController.m in Sources */,
+				59AD924E1E001DA500D09769 /* LLRandomList.m in Sources */,
+				59F5E5C51DFFD034005A24EB /* ClassifyViewController.m in Sources */,
+				59E296A41E11B01B006AD643 /* ProcessTableViewCell.m in Sources */,
+				59AD92511E001DA500D09769 /* LLRandomResult.m in Sources */,
+				59BDD00B1DFA4878008EDE5F /* GetIp.m in Sources */,
+				59E2969C1E119065006AD643 /* ProcessViewcontroller.m in Sources */,
+				59AD92521E001DA500D09769 /* LLRandomRootClass.m in Sources */,
+				59F1C4CC1DF98DA900ADA2A5 /* RequestBase.m in Sources */,
+				59D2D48A1E08179100A2E3DB /* DetailedClassificationViewController.m in Sources */,
+				59D2D4851E07CDC700A2E3DB /* LLClassResult.m in Sources */,
+				59F5E5C91DFFDA1D005A24EB /* LLPlusButton.m in Sources */,
+				59AD92501E001DA500D09769 /* LLRandomProces.m in Sources */,
+				597D904E1E12D4E100060F49 /* MyCollectViewController.m in Sources */,
+				597D905D1E12FB4700060F49 /* MyCollectCell.m in Sources */,
+				59E296A01E11AC5B006AD643 /* MaterialTableViewCell.m in Sources */,
+				59D2D4831E07CDC700A2E3DB /* LLClassItemModel.m in Sources */,
+				59F1C4941DF98C8200ADA2A5 /* main.m in Sources */,
+				59F1C4C81DF98CA600ADA2A5 /* AppDelegate.m in Sources */,
+				59124B9E1E0910AC00341F26 /* LLCollectionReusableView.m in Sources */,
+				593745681DFFA51800262CAA /* HomePageViewController.m in Sources */,
+				59E296961E11904A006AD643 /* IntroViewController.m in Sources */,
+				59124BA21E09251600341F26 /* FoodViewViewController.m in Sources */,
+				59D2D4841E07CDC700A2E3DB /* LLClassList.m in Sources */,
+				597D90591E12F0D900060F49 /* CollectModel.m in Sources */,
+				59AD924F1E001DA500D09769 /* LLRandomMaterial.m in Sources */,
+				59124BAA1E094E3C00341F26 /* MakeFoodViewController.m in Sources */,
+				59124BA61E09299100341F26 /* FoodListTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F1C4A41DF98C8200ADA2A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F1C4AD1DF98C8200ADA2A5 /* ZHULifeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F1C4AF1DF98C8200ADA2A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F1C4B81DF98C8200ADA2A5 /* ZHULifeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59F1C4AA1DF98C8200ADA2A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59F1C48E1DF98C8200ADA2A5 /* ZHULife */;
+			targetProxy = 59F1C4A91DF98C8200ADA2A5 /* PBXContainerItemProxy */;
+		};
+		59F1C4B51DF98C8200ADA2A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59F1C48E1DF98C8200ADA2A5 /* ZHULife */;
+			targetProxy = 59F1C4B41DF98C8200ADA2A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59F1C4A01DF98C8200ADA2A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59F1C4A11DF98C8200ADA2A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59F1C4BA1DF98C8200ADA2A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		59F1C4BB1DF98C8200ADA2A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59F1C4BD1DF98C8200ADA2A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F629EBAB35160215F19FB44A /* Pods-ZHULife.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4QNJD665Z2;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ZHULife/LLPrefixHeader.pch;
+				INFOPLIST_FILE = ZHULife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liuleiApp.ZHULife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		59F1C4BE1DF98C8200ADA2A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14D7C942E426AFCF2B1875B7 /* Pods-ZHULife.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4QNJD665Z2;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ZHULife/LLPrefixHeader.pch;
+				INFOPLIST_FILE = ZHULife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liuleiApp.ZHULife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		59F1C4C01DF98C8200ADA2A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17E92A5F55419A5CAD3362D3 /* Pods-ZHULifeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ZHULifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liuleiApp.ZHULifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHULife.app/ZHULife";
+			};
+			name = Debug;
+		};
+		59F1C4C11DF98C8200ADA2A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E3B50AB50D92250464CACC3 /* Pods-ZHULifeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ZHULifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liuleiApp.ZHULifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHULife.app/ZHULife";
+			};
+			name = Release;
+		};
+		59F1C4C31DF98C8200ADA2A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E6D90D9BF7C1C8553CE31BF /* Pods-ZHULifeUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ZHULifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liuleiApp.ZHULifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZHULife;
+			};
+			name = Debug;
+		};
+		59F1C4C41DF98C8200ADA2A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 421A44C030D27617AB7B11B4 /* Pods-ZHULifeUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ZHULifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liuleiApp.ZHULifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZHULife;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59F1C48A1DF98C8200ADA2A5 /* Build configuration list for PBXProject "ZHULife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F1C4BA1DF98C8200ADA2A5 /* Debug */,
+				59F1C4BB1DF98C8200ADA2A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59F1C4BC1DF98C8200ADA2A5 /* Build configuration list for PBXNativeTarget "ZHULife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F1C4BD1DF98C8200ADA2A5 /* Debug */,
+				59F1C4BE1DF98C8200ADA2A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59F1C4BF1DF98C8200ADA2A5 /* Build configuration list for PBXNativeTarget "ZHULifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F1C4C01DF98C8200ADA2A5 /* Debug */,
+				59F1C4C11DF98C8200ADA2A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59F1C4C21DF98C8200ADA2A5 /* Build configuration list for PBXNativeTarget "ZHULifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F1C4C31DF98C8200ADA2A5 /* Debug */,
+				59F1C4C41DF98C8200ADA2A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59F1C4871DF98C8200ADA2A5 /* Project object */;
+}
